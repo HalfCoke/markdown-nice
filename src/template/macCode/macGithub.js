@@ -99,23 +99,25 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 }
 
 #nice .custom code {
-  padding-top: 15px;
+  padding: 16px;
+  margin-top: 7px;
   background: #f8f8f8;
-  border-radius: 5px;
+  border-radius: 0 0 5px 5px;
 }
 
 #nice .custom:before {
   content: '';
   display:block;
-  background: url(https://my-wechat.mdnice.com/point.png);
+  background: url(https://gitee.com/halfcoke/blog_img/raw/master/img/point.png);
   height: 30px;
   width: 100%;
   background-size:40px;
   background-repeat: no-repeat;
   background-color: #f8f8f8;
   margin-bottom: -7px;
-  border-radius: 5px;
+  border-radius: 5px 5px 0 0;
   background-position: 10px 10px;
+  box-shadow: 0 1px 10px 0 #00000012;
 }
 
 #nice .custom {
