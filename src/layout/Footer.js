@@ -116,6 +116,9 @@ class Footer extends Component {
             将粘贴的富文本转换为 markdown
           </div>
         )}
+        <p>
+          <a href="http://beian.miit.gov.cn">京ICP备2020039820号-1</a>
+        </p>
       </div>
     );
   }
